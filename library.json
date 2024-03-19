@@ -1,0 +1,34 @@
+{
+  "name": "Audio",
+  "frameworks": "Arduino",
+  "platforms": "Teensy",
+  "keywords": "sound, audio, FFT, filter, effect",
+  "description": "Teensy Audio Library platform-specific code for Teensy v4.x",
+  "url": "https://blog.blacklightunicorn.com",
+  "version": "1.3"
+  },
+  "authors":
+  {
+    "name": "Blacklight Unicorn",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/blanu/Audio-Teensy4"
+  },
+  "dependencies":
+  [
+    {
+      "name": "SerialFlash",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "Audio-core"
+    }
+  ],
+  "examples": [
+    "examples/*/*.ino",
+    "examples/*/*/*.ino"
+  ]
+}
