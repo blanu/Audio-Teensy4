@@ -6,5 +6,6 @@
 #include <arm_math.h>
 
 #define DELAY_QUEUE_SIZE  (176512 / AUDIO_BLOCK_SAMPLES)
+#define MAX_BUFFERS 209
 
 #endif
