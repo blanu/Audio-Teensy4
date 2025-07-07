@@ -27,8 +27,9 @@
 #ifndef play_queue_h_
 #define play_queue_h_
 
-#include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
+#include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.hi
 #include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "AudioPlatform.h"
 
 class AudioPlayQueue : public AudioStream
 {
