@@ -96,8 +96,6 @@ static int32_t taylor(uint32_t ph)
 }
 // alternate forms which might be more efficient?
 // https://twitter.com/josyboelen/status/1148227258693431296
-#endif
-
 
 void AudioSynthWaveformSineHires::update(void)
 {
@@ -130,9 +128,6 @@ void AudioSynthWaveformSineHires::update(void)
 	}
 	phase_accumulator += phase_increment * AUDIO_BLOCK_SAMPLES;
 }
-
-
-
 
 void AudioSynthWaveformSineModulated::update(void)
 {
@@ -195,5 +190,3 @@ void AudioSynthWaveformSineModulated::update(void)
 	transmit(block);
 	release(block);
 }
-
-
