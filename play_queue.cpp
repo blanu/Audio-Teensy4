@@ -26,6 +26,7 @@
 
 #include <Arduino.h>
 #include "play_queue.h"
+#include "AudioPlatform.h"
 #include "utility/dspinst.h"
 
 void AudioPlayQueue::setMaxBuffers(uint8_t maxb)
